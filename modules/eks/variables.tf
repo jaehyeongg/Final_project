@@ -171,3 +171,9 @@ variable "was_taint_effect" {
   type        = string
   default     = "NO_SCHEDULE"
 }
+
+variable "ignore_existing_role" {
+  description = "Whether to ignore existing IAM role and skip creation"
+  type        = bool
+  default     = false
+}

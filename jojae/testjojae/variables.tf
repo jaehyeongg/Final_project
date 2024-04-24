@@ -21,5 +21,5 @@ variable "rds_subnet" {
 variable "azs" {
   type        = list(string)
   description = "Availability Zones"
-  default     = ["ap-northeast-2a", "ap-northeast-2c"]
+  default     = ["ap-northeast-3a", "ap-northeast-3c"]
 }
